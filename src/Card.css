@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+/* .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+} */
+.container {
+    margin: auto;
+    margin-bottom: 20px;
+    max-width: 200px;
+
+}
+.imgBox {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.selected {
+    width: 400px;
+    height: 300px;
+    margin: auto;
+}
+
+img {
+    width: 200px;
+}
